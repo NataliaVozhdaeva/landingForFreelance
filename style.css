@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(37, 37, 37, 0.7);
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  color: #fff;
+  background-color: #1e88e5;
+  border: 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.header {
+  height: 981px;
+  background: url("img/headerBG.png") no-repeat;
+  padding: 51px 108px;
+}
+
+.header_top {
+  background: #fff;
+  width: 1295px;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 15px 23px;
+  margin-bottom: 15px;
+}
+
+.header_logo {
+  width: 238px;
+  height: 52px;
+  margin-right: 120px;
+}
+
+.header_memu {
+  margin-right: 60px;
+  height: 52px;
+  align-items: center;
+}
+
+.menu_item {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu_item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.menu_item > a:hover {
+  color: #1e88e5;
+  transition: color 1s;
+}
+
+.menu_item > a:active {
+  color: #1e88e5;
+  font-weight: 500;
+}
+
+.header_button {
+  width: 225px;
+  height: 52px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.header_hero {
+  padding-top: 104px;
+  height: 600px;
+  background: url("img/Workingremotely.png") no-repeat right 123px top -10px;
+}
+
+.hero_h1 {
+  width: 634px;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 98px;
+  color: #252525;
+}
+
+.hero_text {
+  width: 588px;
+  font-weight: 400;
+  color: rgb(37, 37, 37, 0.6);
+  margin-bottom: 84px;
+}
+
+.button_wrapper {
+  display: flex;
+}
+
+.submitHire {
+  width: 250px;
+  height: 76px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-right: 19px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.header_searchForm {
+  width: 420px;
+  position: relative;
+}
+
+.searchPanel {
+  width: 420px;
+  height: 76px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 25px;
+  font-size: 20px;
+  line-height: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.applyIcon,
+.lock,
+.workIcon,
+.canva-app,
+.material-ui,
+.seo,
+.arrowprev,
+.arrownext,
+.searchicon,
+.insta,
+.twit,
+.mail,
+.tel,
+.location,
+.fb {
+  background-color: #fff;
+  background: url("img/sprite.png") no-repeat;
+  overflow: hidden;
+}
+
+.searchicon {
+  position: absolute;
+  top: 13px;
+  right: 26px;
+  background-position: -10px -789px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.features {
+  position: absolute;
+  top: 869px;
+  left: 123px;
+  display: flex;
+  justify-content: center;
+  width: 1267px;
+  height: 325px;
+  padding: 41px 75px;
+  background-color: #fff;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.features_item:not(:last-child) {
+  margin-right: 150px;
+}
+
+.features_icon {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.applyIcon {
+  background-position: -10px -0px;
+  width: 111px;
+  height: 111px;
+}
+.lock {
+  background-position: -10px -121px;
+  width: 111px;
+  height: 111px;
+}
+.workIcon {
+  background-position: -10px -242px;
+  width: 111px;
+  height: 111px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #252525;
+  text-align: center;
+}
+
+.features_text > p {
+  text-align: center;
+  color: #9d9d9d;
+}
+
+.aboutUs {
+  margin-top: 389px;
+  margin-left: 123px;
+  margin-bottom: 176px;
+  display: flex;
+  width: 1267px;
+  height: 587px;
+}
+
+.aboutUs_visual {
+  width: 666px;
+  margin-right: 85px;
+  background: url("img/girl.png") no-repeat;
+  position: relative;
+}
+
+.aboutUs_visual > p {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #9d9d9d;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.aboutUs_visual > p:first-child {
+  padding: 27px 13px;
+  width: 162px;
+  height: 140px;
+  left: 298px;
+  top: 38px;
+}
+
+.aboutUs_visual > p:last-child {
+  padding: 23px 16px;
+  width: 297px;
+  height: 132px;
+  left: 369px;
+  top: 228px;
+}
+
+.smartDigit {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.bigBlueLetter {
+  color: #1e88e5;
+}
+
+.aboutUs_text {
+  width: 516px;
+  text-align: right;
+  color: #9d9d9d;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 84px;
+  margin-bottom: 20px;
+  color: #252525;
+}
+
+.promo_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo {
+  color: #9d9d9d;
+  padding: 0 122px;
+}
+
+.promo_text {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.sliderBtns {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sliderBtn {
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.arrowprev {
+  background-position: -16px -639px;
+  width: 62px;
+  height: 62px;
+  margin-right: 25px;
+}
+.arrownext {
+  background-position: -10px -717px;
+  width: 62px;
+  height: 62px;
+}
+
+.liderBtn .focused {
+  background: #1e88e5;
+}
+
+.promo_offers {
+  display: flex;
+  margin: 75px 0 73px;
+  justify-content: space-between;
+}
+
+.offer_icon {
+  margin: 0 auto 30px;
+}
+
+.canva-app {
+  background-position: -10px -363px;
+  width: 80px;
+  height: 80px;
+}
+
+.material-ui {
+  background-position: -10px -453px;
+  width: 80px;
+  height: 80px;
+}
+
+.seo {
+  background-position: -10px -543px;
+  width: 80px;
+  height: 80px;
+}
+
+.offer {
+  width: 372px;
+  height: 421px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.offer:not(:last-child) {
+  margin-right: 76px;
+}
+
+.offer_header {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #252525;
+}
+
+.offer_conditions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 500;
+  color: #252525;
+}
+
+.offer_conditions > a {
+  color: #1e88e5;
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: auto;
+  margin-bottom: 56px;
+  padding: 133px 100px 84px 125px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about {
+  width: 315px;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 138px;
+  margin-top: 20px;
+}
+
+.insta {
+  background-position: -82px -717px;
+  width: 24px;
+  height: 24px;
+}
+.twit {
+  background-position: -82px -751px;
+  width: 24px;
+  height: 24px;
+}
+.fb {
+  background-position: -94px -633px;
+  width: 12px;
+  height: 24px;
+}
+
+/* 
+
+.mail { background-position: -82px -785px; width: 22px; height: 16px; }
+.tel { background-position: -70px -811px; width: 20px; height: 20px; }
+.location { background-position: -70px -841px; width: 18px; height: 22px; }
+
+
+*/

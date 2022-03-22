@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css"  href="small-device.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
-rel="stylesheet"> 
-
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet"> 
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        
     <title>HealthLab test</title>
   </head>
     <body>
@@ -19,11 +20,11 @@ rel="stylesheet">
                 <img class="header_logo logo" src="img/logoMain.png" width="238" height="52" alt="logo"/>
                 <nav class="header_nav nav">
                     <ul class="header_memu menu">
-                        <li class="menu_item home"><a href=#>Home</a></li>
-                        <li class="menu_item work"><a href=#>Find work</a></li>
-                        <li class="menu_item freelancers"><a href=#>Find Freelancers</a></li>
-                        <li class="menu_item logIn"><a href=#>Log In</a></li>
-                        <li class="menu_item signUp"><a href=#>Sign Up</a></li>                    
+                        <li class="menu_item home"><a href="">Home</a></li>
+                        <li class="menu_item work"><a href="?page=clients">Find work</a></li>
+                        <li class="menu_item freelancers"><a href="?page=freelancers">Find Freelancers</a></li>
+                        <li class="menu_item logIn"><a href="?page=logIn">Log In</a></li>
+                        <li class="menu_item signUp"><a href="?page=autorise">Sign Up</a></li>                    
                     </ul>
                 </nav>
                 <button class="button header_button" >Post a project</button>
@@ -55,7 +56,7 @@ rel="stylesheet">
             </div>
             <div class="features_item features_work">
                 <div class="features_icon workIcon"></div>
-                <div class="features_text work_text">
+                <div class="features_text work_text" id="findWork">
                     <h3>Search work</h3>
                     <p>Search the best freelance work here</p>
                 </div>
@@ -104,7 +105,7 @@ rel="stylesheet">
                         </div>
                         <div class="offer_conditions">
                             <p>Highest bid <br> $500</p>
-                            <a href="">Apply now</a>
+                            <a href="?page=ui" >Apply now</a>
                         </div>
                     </div>
                     <div class="offer">
@@ -115,7 +116,7 @@ rel="stylesheet">
                         </div>
                         <div class="offer_conditions">
                             <p>Highest bid<br> $500</p>
-                            <a href="">Apply now</a>
+                            <a href="?page=Graphic_Design">Apply now</a>
                         </div>
                     </div>
                     <div class="offer">
@@ -126,9 +127,10 @@ rel="stylesheet">
                         </div>
                         <div class="offer_conditions">
                             <p>Highest bid <br> $300</p>
-                            <a href="">Apply now</a>
+                            <a href="?page=SEO">Apply now</a>
                         </div>
                     </div>
+                    <a class="mobileOffers" href="?page=offers">Show more offers</a>
                 </div>
             </section>
         </main>
@@ -138,35 +140,37 @@ rel="stylesheet">
                 <img src="img/logoMain.png" alt="logo" width="238" height="52" />
                 <p>Powerful Freelance Marketplace System with ability to change the Users (Freelancers & Clients) </p>
                 <div class="social">
-                    <div class="social_item insta"></div>
-                    <div class="social_item twit"></div>
-                    <div class="social_item fb"></div>
+                    <a class="social_item insta" href=""></a>
+                    <a class="social_item twit" href=""></a>
+                    <a class="social_item fb" href=""></a>
                 </div>
             </div>
             <div class="footer_item clients">
-
+                <h6>For Clients</h6>
+                <ul>
+                    <li><a href="?page=freelansers">Find Freelancers</a></li>
+                    <li><a href="?page=postProject">Post Project</a></li>
+                    <li><a href="?page=refundPolic">Refund Policy</a></li>
+                    <li><a href="?page=privacy Policy">Privacy Policy</a></li>
+                </ul>
             </div>
             <div class="footer_item freelansers">
-
+                <h6>For Freelancers </h6>
+                <ul>
+                    <li><a href="?page=clients">Find Work</a></li>
+                    <li><a href="?page=logIn">Create Account</a></li>
+                </ul>
             </div>
             <div class="footer_item contacts">
-
+                <h6>Call Us </h6>
+                <ul class="contactList">
+                    <li><div class="location"></div>Kenya </li>
+                    <li> <div class="tel"></div><a href=”tel:+25470000000”>+25470000000</a></li>
+                    <li> <div class="mail"></div><a href=”mailto:bluelance@gmail.com”>bluelance@gmail.com</a></li>
+                </ul>
             </div>
             <p>2022 Spacelance. All right reserved</p>
         </footer>
         
     </body>
 </html>
-<!--
-    
-
-
-
-
-
-
-<div class="mail"></div>
-<div class="tel"></div>
-<div class="location"></div>
-
--->

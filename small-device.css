@@ -1,0 +1,202 @@
+@media (max-width: 1282px) {
+  body {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .header {
+    padding: 10px;
+    background: #f2fafa;
+    height: auto;
+  }
+
+  .header_top {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .header_logo {
+    width: 238px;
+    height: 52px;
+    margin-right: 0;
+  }
+
+  .header_memu {
+    margin: auto;
+    justify-content: space-around;
+    min-width: 90vw;
+  }
+
+  .menu_item {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .header_button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header_hero {
+    padding-top: 36px;
+    background: #f2fafa;
+  }
+
+  .hero_h1 {
+    width: auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .hero_text {
+    width: 75vw;
+    margin-bottom: 33px;
+    text-align: justify;
+    margin: auto;
+  }
+
+  .submitHire {
+    margin: 25px auto;
+  }
+
+  .header_searchForm {
+    max-width: 90vw;
+    position: relative;
+  }
+
+  .header_searchForm {
+    margin: auto;
+  }
+
+  .searchPanel {
+    max-width: 90vw;
+    height: 76px;
+  }
+
+  .features {
+    flex-wrap: wrap;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 85vw;
+    padding: 0;
+    row-gap: 15px;
+    column-gap: 25px;
+    margin: 25px auto;
+    height: auto;
+  }
+
+  .aboutUs {
+    margin: 55px 10px;
+    width: 95vw;
+    height: auto;
+    flex-direction: column;
+    row-gap: 55px;
+  }
+
+  .aboutUs_visual {
+    height: 616px;
+    margin: 25px auto;
+    background: left / contain url("img/girl.png") no-repeat;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 20px;
+    color: #252525;
+    text-align: center;
+  }
+
+  .aboutUs_text {
+    margin-top: 55px;
+    width: 85vw;
+    text-align: justify;
+    color: #9d9d9d;
+    margin: auto;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .promo {
+    color: #9d9d9d;
+    padding: 0 25px;
+    margin-top: 55px;
+  }
+
+  .promo_text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .promo_offers {
+    display: flex;
+    margin: 25px 0 25px;
+    justify-content: space-between;
+  }
+
+  .footer {
+    margin-top: 25px;
+    padding: 25px 25px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+  }
+
+  .contactList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header_memu {
+    flex-direction: column;
+  }
+
+  .aboutUs_visual {
+    display: none;
+  }
+
+  .promo_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sliderBtns {
+    display: none;
+  }
+
+  .mobileOffers {
+    display: block;
+    text-align: center;
+  }
+
+  .promo_offers {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .offer {
+    width: 90vw;
+    height: auto;
+  }
+
+  .footer_item {
+    width: 85vw;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: space-around;
+  }
+}
